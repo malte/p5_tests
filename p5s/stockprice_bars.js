@@ -24,10 +24,10 @@ function setup() {
   for (let i = 0; i < numberOfGraphs; i++) {
     graphs.push(new Graph());
   }
+  const listOfColors = [color('#00E9C9'),color('#00CACA'),color('#00ACD6'), color('#0089DD')];
 }
 
 function draw() {
-  const listOfColors = [color('#00E9C9'),color('#00CACA'),color('#00ACD6'), color('#0089DD')];
   clear();
   strokeWeight(1);
   
